@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Rechner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <div class="calc">
+        <input id="display" readonly />
+
+        <div class="buttons">
+            <button onclick="press('%')">%</button>
+            <button onclick="press('CE')">CE</button>
+            <button onclick="press('C')">C</button>
+            <button onclick="press('⌫')">⌫</button>
+
+            <button onclick="press('1/x')">1/x</button>
+            <button onclick="press('x²')">x²</button>
+            <button onclick="press('√x')">√x</button>
+            <button onclick="press('/')">/</button>
+
+            <button onclick="press('7')">7</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('9')">9</button>
+            <button onclick="press('×')">×</button>
+
+            <button onclick="press('4')">4</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('6')">6</button>
+            <button onclick="press('−')">−</button>
+
+            <button onclick="press('1')">1</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('3')">3</button>
+            <button onclick="press('+')">+</button>
+
+            <button onclick="press('+/−')">+/−</button>
+            <button onclick="press('0')">0</button>
+            <button onclick="press('.')">.</button>
+            <button class="equals" onclick="press('=')">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
